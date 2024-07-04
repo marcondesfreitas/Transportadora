@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transportadora</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5re7F-ZXPlFXCeMUVw7IOluKuzRmepxI&libraries=places&callback=initMap" async defer></script>
+</head>
+<body>
+  <div id="map"></div>
+  <div id="controls">
+    <input id="origin-input" class="controls" type="text" placeholder="Enter an origin location">
+    <input id="destination-input" class="controls" type="text" placeholder="Enter a destination location">
+    <button id="calculate-route">Calculate Route</button>
+  </div>
+  <script src="./js/api_google.js"></script>
+</body>
+</html>
